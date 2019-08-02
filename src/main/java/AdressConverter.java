@@ -23,12 +23,8 @@ public class AdressConverter extends JFrame {
         JTextField hausnummer = new JTextField(2);
         JTextField plz = new JTextField(8);
         JTextField ort = new JTextField(20);
-        /**
-        labelPanel.add(streetLabel);
-        labelPanel.add(streetLabel2);
-        labelPanel.add(plzLabel);
-        labelPanel.add(ortLabel);
-**/
+
+
         strasse.setSize(150,20);
         textPanel.add(streetLabel);
         textPanel.add(strasse);
