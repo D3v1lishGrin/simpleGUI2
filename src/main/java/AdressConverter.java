@@ -19,21 +19,27 @@ public class AdressConverter extends JFrame {
         JLabel plzLabel = new JLabel("Postleitzahl");
         JLabel ortLabel = new JLabel("Ort");
 
-        JTextField strasse = new JTextField();
-        JTextField hausnummer = new JTextField();
-        JTextField plz = new JTextField();
-        JTextField ort = new JTextField();
-
+        JTextField strasse = new JTextField(40);
+        JTextField hausnummer = new JTextField(2);
+        JTextField plz = new JTextField(8);
+        JTextField ort = new JTextField(20);
+        /**
         labelPanel.add(streetLabel);
         labelPanel.add(streetLabel2);
         labelPanel.add(plzLabel);
         labelPanel.add(ortLabel);
-
+**/
         strasse.setSize(150,20);
-
+        textPanel.add(streetLabel);
         textPanel.add(strasse);
+
+        textPanel.add(streetLabel2);
         textPanel.add(hausnummer);
+
+        textPanel.add(plzLabel);
         textPanel.add(plz);
+
+        textPanel.add(ortLabel);
         textPanel.add(ort);
 
         adressFrame.add(labelPanel);
